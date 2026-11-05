@@ -1,0 +1,187 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Edwin Otieno | Home</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eef2f7;
+            color: #263238;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: #17365d;
+            padding: 16px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 5px 16px;
+        }
+
+        nav a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        .name-container {
+            overflow: hidden;
+            background-color: white;
+            padding: 10px;
+        }
+
+        .moving-name {
+            font-size: 48px;
+            font-weight: bold;
+            font-style: italic;
+            color: #17365d;
+            animation: moveName 8s linear infinite alternate;
+        }
+
+        @keyframes moveName {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(60%);
+            }
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 24px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px #00000012;
+        }
+
+        h1, h2 {
+            color: #17365d;
+        }
+
+        .profile {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #17365d;
+        }
+
+        footer {
+            background-color: #17365d;
+            text-align: center;
+            padding: 18px;
+        }
+
+        footer p {
+            color: lime;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .moving-name {
+                font-size: 30px;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- TOP NAVIGATION -->
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="experience.html">Personal Experience</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="hobbies.html">Hobbies</a>
+    </nav>
+
+    <!-- MOVING NAME -->
+
+    <div class="name-container">
+        <div class="moving-name">
+            EDWIN OTIENO
+        </div>
+    </div>
+
+    <main>
+
+        <section>
+
+            <img class="profile" src="joan.jpg" alt="Edwin Otieno">
+
+            <hr>
+
+            <h1>Edwin Otieno</h1>
+
+            <h3>Information Technology Student | Aspiring IT Professional</h3>
+
+            <p>
+                I am an Information Technology student at Kisii University,
+                studying for a Bachelor of Information Technology.
+                I am interested in software development, computer systems,
+                databases, and emerging technologies.
+            </p>
+
+            <p>
+                I enjoy learning practical technology skills and using
+                them to solve real-world problems. After completing my
+                course, I hope to build a career in the IT field and
+                contribute to useful software and technology projects.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- BOTTOM NAVIGATION -->
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="experience.html">Personal Experience</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="hobbies.html">Hobbies</a>
+    </nav>
+
+    <footer>
+        <p>© 2026 Edwin Otieno. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
